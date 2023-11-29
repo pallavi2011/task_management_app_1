@@ -1,0 +1,17 @@
+.tasks{
+  position: relative;
+  padding: 2rem;
+  width: 100%;
+  background-color: #212121;
+  border: 2px solid rgba(249,249,249, 0.08);
+  border-radius: 1rem;
+  height: calc(100vh - 6rem);
+
+  overflow-y: auto;
+    
+  
+ 
+  }
+  &::-webkit-scrollbar {
+    width: 0.5rem;
+  }
